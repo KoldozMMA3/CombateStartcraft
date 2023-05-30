@@ -7,6 +7,14 @@ public class Guerrero {
 	private int costo = 0;
 	private int nivel = 0;
 	
+	public void printDatos(){
+		System.out.println("Daño :" + this.danio +
+				"\nVida :"+ this.vida +
+				"\nCantidad :"+ this.cantidad +
+				"\nCosto :"+ this.costo +
+				"\nNivel :"+ this.nivel);
+	}
+	
 	public void setDanio(int danio) {
 		this.danio = danio;
 	}

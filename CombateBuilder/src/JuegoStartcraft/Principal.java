@@ -13,6 +13,6 @@ public class Principal {
         constructor.construirAtributos();
 
         Guerrero guerrero = constructor.getGuerrero();
-        System.out.println(guerrero); // Ejemplo de uso del guerrero construido
+        guerrero.printDatos(); // Ejemplo de uso del guerrero construido
     }
 }

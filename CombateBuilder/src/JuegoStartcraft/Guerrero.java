@@ -5,7 +5,7 @@ package JuegoStartcraft;
  * Contiene los atributos que describen a un Guerrero, como el daño, la vida, la cantidad, el costo y el nivel.
  * Proporciona métodos para establecer los valores de los atributos y para imprimir los datos del Guerrero.
  * 
- * Autor: Cristian Carrizales Luna
+ * @author: Cristian Carrizales Luna
  */
 public class Guerrero {
     private int danio = 0;      // Atributo que representa el daño del Guerrero

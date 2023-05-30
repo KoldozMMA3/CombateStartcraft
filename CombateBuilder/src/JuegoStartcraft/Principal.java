@@ -6,7 +6,7 @@ package JuegoStartcraft;
 //CLASE PRINCIPAL
 public class Principal {
     /**
-     * Método principal que se ejecuta al iniciar el programa.
+     * Metodo principal que se ejecuta al iniciar el programa.
      * @param args Argumentos de línea de comandos (no se utilizan en este caso).
      */
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Principal {
         // Obtener el guerrero construido
         Guerrero guerrero = constructor.getGuerrero();
 
-        // Imprimir la información del guerrero
+        // Imprimir la informacion del guerrero
         System.out.println(guerrero.toString());
     }
 }

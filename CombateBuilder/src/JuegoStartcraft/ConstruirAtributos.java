@@ -10,11 +10,12 @@ public class ConstruirAtributos {
 		return guerreroBuilder.getGuerrero();
 	}
 	
-	public void construirPizza() {
+	public void construirAtributos() {
 		guerreroBuilder.crearNuevoGuerrero();
-		guerreroBuilder.builDaño();
-		guerreroBuilder.builVida();
-		guerreroBuilder.builCosto();
-		guerreroBuilder.builNivel();
+		guerreroBuilder.buildDanio();
+		guerreroBuilder.buildVida();
+		guerreroBuilder.buildCantidad();
+		guerreroBuilder.buildCosto();
+		guerreroBuilder.buildNivel();
 	}
 }

@@ -1,6 +1,6 @@
 package JuegoStartcraft;
 
-public class GuerreroBuilder {
+public abstract class GuerreroBuilder {
 	protected Guerrero guerrero;
 	
 	public Guerrero getGuerrero() {

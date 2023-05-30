@@ -1,18 +1,18 @@
 package JuegoStartcraft;
 
-//CLASE PRINCIPAL.
-
+//CLASE PRINCIPAL
 public class Principal {
-public static void main(String[] args) {
-   ConstruirAtributos atributos = new ConstruirAtributos(); // Director.
-   GuerreroBuilder terran_guerrerobuilder = new TerranGuerreroBuilder();
-   GuerreroBuilder zerg_guerrerobuilder = new ZergGuerreroBuilder();
-   GuerreroBuilder protoss_guerrerobuilder = new ProtossGuerreroBuilder();
+    public static void main(String[] args) {
+        ConstruirAtributos constructor = new ConstruirAtributos(); // Director
+        GuerreroBuilder terran_GuerreroBuilder = new TerranGuerreroBuilder();
+        GuerreroBuilder zerg_GuerreroBuilder = new ZergGuerreroBuilder();
+        GuerreroBuilder protoss_GuerreroBuilder = new ProtossGuerreroBuilder();
 
-   atributos.setGuerreroBuilder( terran_guerrerobuilder );
-   atributos.setGuerreroBuilder( zerg_guerrerobuilder );
-   atributos.construirGuerrero();
+        constructor.setGuerreroBuilder(terran_GuerreroBuilder);
 
-   Guerrero guerrero = atributos.getGuerrero();
-}
+        constructor.construirAtributos();
+
+        Guerrero guerrero = constructor.getGuerrero();
+        System.out.println(guerrero); // Ejemplo de uso del guerrero construido
+    }
 }

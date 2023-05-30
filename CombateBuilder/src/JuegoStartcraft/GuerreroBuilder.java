@@ -10,8 +10,9 @@ public abstract class GuerreroBuilder {
 	public void crearNuevoGuerrero() {
 		guerrero = new Guerrero(); 
 	}
-	public abstract void buildDaño();
+	public abstract void buildDanio();
 	public abstract void buildVida();
+	public abstract void buildCantidad();
 	public abstract void buildCosto();
 	public abstract void buildNivel();
 }

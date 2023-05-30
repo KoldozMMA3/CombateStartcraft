@@ -1,24 +1,29 @@
 package JuegoStartcraft;
 
 public class Guerrero {
-	private String daño = "";
-	private String vida = "";
-	private String costo = "";
-	private String nivel = "";
+	private int danio = 0;
+	private int vida = 0;
+	private int cantidad = 0;
+	private int costo = 0;
+	private int nivel = 0;
 	
-	public void setDaño(String daño) {
-		this.daño = daño;
+	public void setDanio(int danio) {
+		this.danio = danio;
 	}
 	
-	public void setVida(String vida) {
+	public void setVida(int vida) {
 		this.vida = vida;
 	}
 	
-	public void setCosto(String costo) {
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	
+	public void setCosto(int costo) {
 		this.costo = costo;
 	}
 	
-	public void setNivel(String nivel) {
+	public void setNivel(int nivel) {
 		this.nivel = nivel;
 	}
 }
